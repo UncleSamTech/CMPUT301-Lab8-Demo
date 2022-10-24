@@ -23,7 +23,7 @@ public class CustomListTest {
     public void addCityTest(){
         int listSize = list.getCount();
         list.addCity(new City("Burnaby", "BC"));
-        assertEquals(listSize,listSize + 1);
+        assertEquals(list.getCount(),listSize + 1);
     }
 
 }
