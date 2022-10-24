@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         cityDataList.add(new City("Calgary","AB"));
         cityDataList.add(new City("Waterloo","ON"));
         cityDataList.add(new City("Humboldt","SK"));
+        cityDataList.add(new City("Estevan","SK"));
 
         cityAdapter = new CustomList(this,cityDataList);
         cityList.setAdapter(cityAdapter);
